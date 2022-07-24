@@ -1,15 +1,15 @@
 export class Log {
   static success(message: string): void {
-    console.log(`%c ${message}', 'color:green'`);
+    console.log(`%c ${message}`, 'color:green');
   }
   static error(message: string): void {
-    console.log(`%c ${message}', 'color:red'`);
+    console.log(`%c ${message}`, 'color:red');
   }
   static warn(message: string): void {
-    console.log(`%c ${message}', 'color:orange'`);
+    console.log(`%c ${message}`, 'color:orange');
   }
   static info(message: string): void {
-    console.log(`%c ${message}', 'color:black; background-color:yellow'`);
+    console.log(`%c ${message}`, 'color:black; background-color:yellow');
   }
   static custom(message: string, color: string, background: string): void {
     if (color === undefined || color === null || color === "") {
@@ -19,7 +19,7 @@ export class Log {
       color = "white";
     }
     console.log(
-      `%c ${message}', 'color:${color}; background-color:${background}'`
+      `%c ${message}`, `color:${color}; background-color:${background}`
     );
   }
 }

@@ -1,7 +1,7 @@
 {
-  "name": "logpackage",
+  "name": "bt-logs",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the log package to make logs beautiful",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -19,7 +19,7 @@
     "colourful logs",
     "pretty logs"
   ],
-  "author": "Bhavik Thanki",
+  "author": "bhavik-thanki",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bhaviikk/new-beautify-logs/issues"
