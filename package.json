@@ -1,0 +1,32 @@
+{
+  "name": "logpackage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhaviikk/new-beautify-logs.git"
+  },
+  "keywords": [
+    "beautify-logs",
+    "beautiful logs",
+    "color logs",
+    "colourful logs",
+    "pretty logs"
+  ],
+  "author": "Bhavik Thanki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhaviikk/new-beautify-logs/issues"
+  },
+  "homepage": "https://github.com/bhaviikk/new-beautify-logs#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "files": ["lib/**/*"]
+}
